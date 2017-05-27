@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88F0C1EB1EB4BEDC007AA19F /* indiceVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F0C1EA1EB4BEDC007AA19F /* indiceVector.cpp */; };
+		88F0C1F21EB4FC06007AA19F /* tornillo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F0C1F11EB4FC06007AA19F /* tornillo.cpp */; };
+		88F0C1F71EB69815007AA19F /* subsecuencia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F0C1F61EB69815007AA19F /* subsecuencia.cpp */; };
+		88F0C1FA1EB7A179007AA19F /* clasificacion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F0C1F91EB7A179007AA19F /* clasificacion.cpp */; };
+		88F0C1FD1EB7B051007AA19F /* skyline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F0C1FC1EB7B051007AA19F /* skyline.cpp */; };
+		88F0C1FF1EB7CD4E007AA19F /* seleccion_multiple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F0C1FE1EB7CD4E007AA19F /* seleccion_multiple.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88F0C1E51EB4BEDB007AA19F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88F0C1E71EB4BEDB007AA19F /* Relación 2: Divide y Vencerás */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Relación 2: Divide y Vencerás"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F0C1EA1EB4BEDC007AA19F /* indiceVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = indiceVector.cpp; sourceTree = "<group>"; };
+		88F0C1F11EB4FC06007AA19F /* tornillo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tornillo.cpp; sourceTree = "<group>"; };
+		88F0C1F61EB69815007AA19F /* subsecuencia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subsecuencia.cpp; sourceTree = "<group>"; };
+		88F0C1F91EB7A179007AA19F /* clasificacion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clasificacion.cpp; sourceTree = "<group>"; };
+		88F0C1FC1EB7B051007AA19F /* skyline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = skyline.cpp; sourceTree = "<group>"; };
+		88F0C1FE1EB7CD4E007AA19F /* seleccion_multiple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = seleccion_multiple.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F0C1E41EB4BEDB007AA19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F0C1DE1EB4BEDB007AA19F = {
+			isa = PBXGroup;
+			children = (
+				88F0C1E91EB4BEDB007AA19F /* Relación 2: Divide y Vencerás */,
+				88F0C1E81EB4BEDB007AA19F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88F0C1E81EB4BEDB007AA19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F0C1E71EB4BEDB007AA19F /* Relación 2: Divide y Vencerás */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F0C1E91EB4BEDB007AA19F /* Relación 2: Divide y Vencerás */ = {
+			isa = PBXGroup;
+			children = (
+				88F0C1F41EB69708007AA19F /* Ejercicio 1 */,
+				88F0C1F81EB7A14F007AA19F /* Ejercicio 2 */,
+				88F0C1FB1EB7B02F007AA19F /* Ejercicio 3 */,
+				88F0C1F31EB696FC007AA19F /* Ejercicio 4 */,
+				88F0C1F51EB697D8007AA19F /* Ejercicio 5 */,
+				88F0C2001EB7E35B007AA19F /* Ejercicio 7 */,
+			);
+			path = "Relación 2: Divide y Vencerás";
+			sourceTree = "<group>";
+		};
+		88F0C1F31EB696FC007AA19F /* Ejercicio 4 */ = {
+			isa = PBXGroup;
+			children = (
+				88F0C1F11EB4FC06007AA19F /* tornillo.cpp */,
+			);
+			name = "Ejercicio 4";
+			sourceTree = "<group>";
+		};
+		88F0C1F41EB69708007AA19F /* Ejercicio 1 */ = {
+			isa = PBXGroup;
+			children = (
+				88F0C1EA1EB4BEDC007AA19F /* indiceVector.cpp */,
+			);
+			name = "Ejercicio 1";
+			sourceTree = "<group>";
+		};
+		88F0C1F51EB697D8007AA19F /* Ejercicio 5 */ = {
+			isa = PBXGroup;
+			children = (
+				88F0C1F61EB69815007AA19F /* subsecuencia.cpp */,
+			);
+			name = "Ejercicio 5";
+			sourceTree = "<group>";
+		};
+		88F0C1F81EB7A14F007AA19F /* Ejercicio 2 */ = {
+			isa = PBXGroup;
+			children = (
+				88F0C1F91EB7A179007AA19F /* clasificacion.cpp */,
+			);
+			name = "Ejercicio 2";
+			sourceTree = "<group>";
+		};
+		88F0C1FB1EB7B02F007AA19F /* Ejercicio 3 */ = {
+			isa = PBXGroup;
+			children = (
+				88F0C1FC1EB7B051007AA19F /* skyline.cpp */,
+			);
+			name = "Ejercicio 3";
+			sourceTree = "<group>";
+		};
+		88F0C2001EB7E35B007AA19F /* Ejercicio 7 */ = {
+			isa = PBXGroup;
+			children = (
+				88F0C1FE1EB7CD4E007AA19F /* seleccion_multiple.cpp */,
+			);
+			name = "Ejercicio 7";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F0C1E61EB4BEDB007AA19F /* Relación 2: Divide y Vencerás */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F0C1EE1EB4BEDC007AA19F /* Build configuration list for PBXNativeTarget "Relación 2: Divide y Vencerás" */;
+			buildPhases = (
+				88F0C1E31EB4BEDB007AA19F /* Sources */,
+				88F0C1E41EB4BEDB007AA19F /* Frameworks */,
+				88F0C1E51EB4BEDB007AA19F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Relación 2: Divide y Vencerás";
+			productName = "Relación 2: Divide y Vencerás";
+			productReference = 88F0C1E71EB4BEDB007AA19F /* Relación 2: Divide y Vencerás */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F0C1DF1EB4BEDB007AA19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jesús Jiménez Sánchez";
+				TargetAttributes = {
+					88F0C1E61EB4BEDB007AA19F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 88F0C1E21EB4BEDB007AA19F /* Build configuration list for PBXProject "Relación 2: Divide y Vencerás" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88F0C1DE1EB4BEDB007AA19F;
+			productRefGroup = 88F0C1E81EB4BEDB007AA19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F0C1E61EB4BEDB007AA19F /* Relación 2: Divide y Vencerás */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F0C1E31EB4BEDB007AA19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F0C1F21EB4FC06007AA19F /* tornillo.cpp in Sources */,
+				88F0C1F71EB69815007AA19F /* subsecuencia.cpp in Sources */,
+				88F0C1FA1EB7A179007AA19F /* clasificacion.cpp in Sources */,
+				88F0C1FF1EB7CD4E007AA19F /* seleccion_multiple.cpp in Sources */,
+				88F0C1FD1EB7B051007AA19F /* skyline.cpp in Sources */,
+				88F0C1EB1EB4BEDC007AA19F /* indiceVector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		88F0C1EC1EB4BEDC007AA19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88F0C1ED1EB4BEDC007AA19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88F0C1EF1EB4BEDC007AA19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88F0C1F01EB4BEDC007AA19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F0C1E21EB4BEDB007AA19F /* Build configuration list for PBXProject "Relación 2: Divide y Vencerás" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F0C1EC1EB4BEDC007AA19F /* Debug */,
+				88F0C1ED1EB4BEDC007AA19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F0C1EE1EB4BEDC007AA19F /* Build configuration list for PBXNativeTarget "Relación 2: Divide y Vencerás" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F0C1EF1EB4BEDC007AA19F /* Debug */,
+				88F0C1F01EB4BEDC007AA19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88F0C1DF1EB4BEDB007AA19F /* Project object */;
+}

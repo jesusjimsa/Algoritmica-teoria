@@ -85,88 +85,30 @@ vector<int> cintaVoraz(const int longitud, vector<int> programas){
 	
 	return resultado;
 }
-//
-//int main(){
-//	int tam = 50;     // Tamaño del vector
-//	
-//	// Generación del vector aleatorio
-//	vector<int> v;
-//	int obj = rand() % 45;
-//	
-//	srand((unsigned int)time(0));            // Inicialización del generador de números pseudoaleatorios
-//	
-//	for (int i = 0; i < tam; i++)  // Recorrer vector
-//		v.push_back((rand() % 20) + 1);
-//	
-//	high_resolution_clock::time_point start, end;	//Punto de inicio y de fin
-//	duration<double> tiempo_transcurrido;    //Objeto para medir la duracion de end y start
-//	start = high_resolution_clock::now();    //Iniciamos el punto de inicio
-//	
-//	cintaVoraz(obj, v);
-//	
-//	end = high_resolution_clock::now();    //Anotamos el punto de de fin
-//	
-//	//El tiempo transcurrido es:
-//	tiempo_transcurrido = duration_cast< duration<double> > (end - start);
-//	
-//	//Mostramos resultados
-//	cout << tam << "\t" << tiempo_transcurrido.count() << endl;
-//}
-//
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+int main(){
+	int tam = 50;     // Tamaño del vector
+	
+	// Generación del vector aleatorio
+	vector<int> v;
+	int obj = rand() % 45;
+	
+	srand((unsigned int)time(0));            // Inicialización del generador de números pseudoaleatorios
+	
+	for (int i = 0; i < tam; i++)  // Recorrer vector
+		v.push_back((rand() % 20) + 1);
+	
+	high_resolution_clock::time_point start, end;	//Punto de inicio y de fin
+	duration<double> tiempo_transcurrido;    //Objeto para medir la duracion de end y start
+	start = high_resolution_clock::now();    //Iniciamos el punto de inicio
+	
+	cintaVoraz(obj, v);
+	
+	end = high_resolution_clock::now();    //Anotamos el punto de de fin
+	
+	//El tiempo transcurrido es:
+	tiempo_transcurrido = duration_cast< duration<double> > (end - start);
+	
+	//Mostramos resultados
+	cout << tam << "\t" << tiempo_transcurrido.count() << endl;
+}

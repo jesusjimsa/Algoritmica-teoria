@@ -50,7 +50,6 @@ int Seleccion(vector<int> &programas, int longitud, int actual){
 	int menor = -1;
 	auto iter = programas.begin();
 
-	
 	if(Factible((*iter), longitud, actual) && !programas.empty()){	//Cuando esté vacío el vector de programas o no sea factible será que ya habremos terminado
 		menor = (*iter);											//porque estarán ordenados de menor a mayor
 		programas.erase(iter);

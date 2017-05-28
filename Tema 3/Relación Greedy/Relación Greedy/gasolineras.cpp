@@ -13,7 +13,6 @@
 using namespace std;
 using namespace std::chrono;
 
-
 int Seleccion(vector<int> &gasolineras, int kmDeposito){
 	int lejana = 0;
 	bool terminar = false;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		887EF8C61EDAD98000770D55 /* unionCintas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887EF8C51EDAD98000770D55 /* unionCintas.cpp */; };
+		887EF8C81EDAE49000770D55 /* planificacionProcesos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887EF8C71EDAE49000770D55 /* planificacionProcesos.cpp */; };
 		889B4E0D1ED99CE10010180A /* gasolineras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 889B4E0C1ED99CE10010180A /* gasolineras.cpp */; };
 		88F35FDF1ED8A632007FF2E8 /* cintaMagnetica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F35FDE1ED8A632007FF2E8 /* cintaMagnetica.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		887EF8C51EDAD98000770D55 /* unionCintas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unionCintas.cpp; sourceTree = "<group>"; };
+		887EF8C71EDAE49000770D55 /* planificacionProcesos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = planificacionProcesos.cpp; sourceTree = "<group>"; };
 		889B4E0C1ED99CE10010180A /* gasolineras.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gasolineras.cpp; sourceTree = "<group>"; };
 		88F35FDB1ED8A632007FF2E8 /* Relación Greedy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Relación Greedy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F35FDE1ED8A632007FF2E8 /* cintaMagnetica.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cintaMagnetica.cpp; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			children = (
 				88F35FDE1ED8A632007FF2E8 /* cintaMagnetica.cpp */,
 				889B4E0C1ED99CE10010180A /* gasolineras.cpp */,
+				887EF8C51EDAD98000770D55 /* unionCintas.cpp */,
+				887EF8C71EDAE49000770D55 /* planificacionProcesos.cpp */,
 			);
 			path = "Relación Greedy";
 			sourceTree = "<group>";
@@ -122,8 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887EF8C61EDAD98000770D55 /* unionCintas.cpp in Sources */,
 				889B4E0D1ED99CE10010180A /* gasolineras.cpp in Sources */,
 				88F35FDF1ED8A632007FF2E8 /* cintaMagnetica.cpp in Sources */,
+				887EF8C81EDAE49000770D55 /* planificacionProcesos.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

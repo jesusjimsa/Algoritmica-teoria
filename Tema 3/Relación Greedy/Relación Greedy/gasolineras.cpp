@@ -73,12 +73,4 @@ int main(){
 
 	//Mostramos resultados
 	cout << tam << "\t" << tiempo_transcurrido.count() << endl;
-	
-	cout << "Recorridos entre gasolineras:" << endl;
-	
-	for(int i = 0; i < v.size(); i++){
-		cout << v[i] << ", ";
-	}
-	
-	cout << endl;
 }

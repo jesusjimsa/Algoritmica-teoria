@@ -31,7 +31,6 @@ int Pivote(vector<int> &A, int p, int q){
 	return i;
 }
 
-
 void QuickSort(vector<int> &A, int p, int q){
 	int r;
 	
@@ -80,8 +79,6 @@ vector<int> cintaVoraz(const int longitud, vector<int> programas){
 			terminar = true;
 		}
 	}
-	
-	cout << "Longitud restante -> " << longitud - actual << endl;
 	
 	return resultado;
 }

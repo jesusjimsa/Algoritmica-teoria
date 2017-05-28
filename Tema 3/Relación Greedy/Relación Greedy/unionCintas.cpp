@@ -75,7 +75,7 @@ int unionVoraz(vector<int> tamanioCintas){
 }
 
 int main(){
-	int tam = 3;     // Tamaño del vector
+	int tam = 50;     // Tamaño del vector
 	
 	// Generación del vector aleatorio
 	vector<int> v;
@@ -102,5 +102,4 @@ int main(){
 	
 	// Mostramos resultados
 	cout << tam << "\t" << tiempo_transcurrido.count() << endl;
-	cout << "Movimientos necesarios para la unión de las cintas -> " << resultadoUnion << endl;
 }

@@ -57,7 +57,7 @@ vector<int> planificacionVoraz(vector< pair<int, int> > duracion_terminacion){
 }
 
 int main(){
-	int tam = 5;     // Tamaño del vector
+	int tam = 50;     // Tamaño del vector
 	
 	// Generación del vector aleatorio
 	vector< pair<int, int> > v;
